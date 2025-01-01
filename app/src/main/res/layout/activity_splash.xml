@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:gravity="center"
+    tools:context=".SplashActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:layout_width="@dimen/dp_300"
+            android:layout_height="@dimen/dp_300"
+            android:src="@mipmap/ic_launcher" />
+
+        <TextView
+            android:gravity="center"
+            android:lineSpacingExtra="@dimen/dp_12"
+            android:text="@string/welcome_text"
+            android:id="@+id/tv_splash_text"
+            android:textSize="@dimen/sp_26"
+            android:textStyle="bold|italic"
+            android:textColor="@color/black"
+            android:layout_width="@dimen/dp_260"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+</RelativeLayout>

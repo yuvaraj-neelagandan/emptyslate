@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">EmptySlate</string>
+    <string name="welcome_text">Hello Amigos,\nWelcome to\nEmptySlate!\nLet\u0027s get started\n...</string>
+
+    <string name="google_sso">Sign in with Google</string>
+
+    <string name="text_slide_delay">100</string>
+    <string name="navigation_delay">3000</string>
+</resources>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "182385646219",
+    "project_id": "emptyslate-e2dbe",
+    "storage_bucket": "emptyslate-e2dbe.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:182385646219:android:4b6ec1e58e1e2214c2d28e",
+        "android_client_info": {
+          "package_name": "com.dm.emptyslate"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBlblEiXKdBscv8TVa6KkcPNpmeB0xHENY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
