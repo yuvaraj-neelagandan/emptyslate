@@ -15,22 +15,21 @@ Empty Slate is a comprehensive digital learning platform designed to empower ind
 
 ## Screenshots
 
-![Launcher Image](app/src/main/res/mipmap-xxxhdpi/ic_launcher.png)
+![Launcher Image](app/src/main/res/drawable/ic_launcher_image.png)
 
-**Note:** Replace `mipmap-xxxhdpi` with the appropriate density qualifier for your launcher image. You can also include additional screenshots showcasing different sections of the app.
 
 ## Getting Started
 
 1. **Prerequisites:**
-    * Android Studio (latest stable version)
-    * Android SDK (API level 21 or higher)
+   * Android Studio (latest stable version)
+   * Android SDK (API level 21 or higher)
 2. **Installation:**
-    * Clone the repository: `git clone <repository_url>`
-    * Import the project into Android Studio.
+   * Clone the repository: `git clone https://github.com/yuvaraj-neelagandan/emptyslate.git`
+   * Import the project into Android Studio.
 3. **Build:**
-    * Build the project using Android Studio's build system.
+   * Build the project using Android Studio's build system.
 4. **Run:**
-    * Launch the app on an emulator or physical device.
+   * Launch the app on an emulator or physical device.
 
 ## Usage
 
@@ -40,9 +39,6 @@ Empty Slate is a comprehensive digital learning platform designed to empower ind
 4. **Track Your Progress:** Monitor your progress and achievements within the app.
 5. **Engage with the Community:** Connect with other learners and instructors through the community forum.
 
-## Contributing
-
-We welcome contributions from the community to enhance Empty Slate. Please follow our contribution guidelines outlined in the [CONTRIBUTING.md](CONTRIBUTING.md) file.
 
 ## License
 
@@ -50,8 +46,4 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## Contact
 
-For any inquiries or feedback, please contact us at [your_email_address].
-
-## Acknowledgments
-
-We extend our gratitude to all the contributors and open-source libraries that have made Empty Slate possible.
+For any inquiries or feedback, please contact us at emptyslate.info@gmail.com.
