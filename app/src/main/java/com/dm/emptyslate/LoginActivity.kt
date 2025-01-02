@@ -62,7 +62,8 @@ class LoginActivity : AppCompatActivity() {
         tvGoogleSso = findViewById(R.id.tv_google_sso)
 
         tvGoogleSso.setOnClickListener(View.OnClickListener {
-            signInGoogle()
+//            signInGoogle()
+            navigateToMain()
         })
 
     }

@@ -50,4 +50,8 @@ dependencies {
 
     implementation(libs.firebase.auth)
     implementation(libs.android.play.services)
+    implementation(platform(libs.firebase.bom))
+    implementation(libs.firebase.analytics)
+
+//    implementation(libs.firebase.perf)
 }

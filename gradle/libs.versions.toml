@@ -13,6 +13,9 @@ googleGmsGoogleServices = "4.4.2"
 firebaseDatabase = "21.0.0"
 firebaseAuth = "23.1.0"
 andoridPlayServices = "21.3.0"
+firebase-bom = "33.7.0"
+firebasePref ="1.4.2"
+firebasePrefLib ="20.3.0"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -23,12 +26,16 @@ androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version
 material = { group = "com.google.android.material", name = "material", version.ref = "material" }
 androidx-activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
 androidx-constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+firebase-bom = {group = "com.google.firebase", name = "firebase-bom", version.ref = "firebase-bom"}
 firebase-database = { group = "com.google.firebase", name = "firebase-database", version.ref = "firebaseDatabase" }
 firebase-auth = { group = "com.google.firebase", name = "firebase-auth", version.ref = "firebaseAuth" }
 android-play-services = { group = "com.google.android.gms", name = "play-services-auth", version.ref = "andoridPlayServices" }
+firebase-analytics = { group = "com.google.firebase", name = "firebase-analytics"}
+firebase-perf = { group = "com.google.firebase.firebase-perf", name = "firebase-perf", version = "firebasePrefLib" }
+
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
 kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
 google-gms-google-services = { id = "com.google.gms.google-services", version.ref = "googleGmsGoogleServices" }
-
+google-firebase-firebase-perf = { id = "com.google.firebase.firebase-perf", version.ref = "firebasePref" }

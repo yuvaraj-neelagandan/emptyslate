@@ -1,26 +1,45 @@
 {
   "project_info": {
-    "project_number": "182385646219",
-    "project_id": "emptyslate-e2dbe",
-    "storage_bucket": "emptyslate-e2dbe.firebasestorage.app"
+    "project_number": "923437882004",
+    "firebase_url": "https://emptyslate-a556e-default-rtdb.firebaseio.com",
+    "project_id": "emptyslate-a556e",
+    "storage_bucket": "emptyslate-a556e.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:182385646219:android:4b6ec1e58e1e2214c2d28e",
+        "mobilesdk_app_id": "1:923437882004:android:465b65e6a05374ba75f281",
         "android_client_info": {
           "package_name": "com.dm.emptyslate"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "923437882004-ha0aaupl2kkpg1fdtho1n17bnkisrlb6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dm.emptyslate",
+            "certificate_hash": "feea8c522b87868227f0bdc854e5dc4ba3b91a5e"
+          }
+        },
+        {
+          "client_id": "923437882004-vo8p9ubtd79c796lf4hkn91o5ainvojs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
-          "current_key": "AIzaSyBlblEiXKdBscv8TVa6KkcPNpmeB0xHENY"
+          "current_key": "AIzaSyAn1WkIsJSLZyOji8kdpiahW9uGY9FMPpg"
         }
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "923437882004-vo8p9ubtd79c796lf4hkn91o5ainvojs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         }
       }
     }

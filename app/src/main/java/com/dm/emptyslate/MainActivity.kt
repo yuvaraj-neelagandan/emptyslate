@@ -59,6 +59,6 @@ class MainActivity : AppCompatActivity() {
     private fun writeData() {
         database = Firebase.database
         myRef = (database as FirebaseDatabase).getReference("message")
-        myRef.setValue("Hello, World!")
+        myRef.setValue("I am the smiling Sukuna")
     }
 }
